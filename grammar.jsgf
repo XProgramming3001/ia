@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar home_control;
+
+public <command> = j'aimerais (aller|partir) au menu <room>;
+
+<room> = (principal|chambre);
